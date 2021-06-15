@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+    worker:
+        image: quetzalarc/php:7.3-worker
+        restart: always
+        volumes:
+            - .:/var/www/html
+        logging:
+            options:
+                max-size: "1m"
+                max-file: "1"
+
+networks:
+    worker:
+      driver: bridge

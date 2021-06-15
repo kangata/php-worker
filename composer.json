@@ -1,0 +1,38 @@
+{
+    "name": "quetzal-studio/php-worker",
+    "description": "PHP worker",
+    "keywords": [
+        "php",
+        "amqp",
+        "worker",
+        "php-worker",
+        "rabbitmq",
+        "queue",
+        "message"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ata",
+            "email": "quetzalskeith@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.46",
+        "quetzal-studio/php-amqp-worker": "dev-master"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
