@@ -19,7 +19,7 @@
     ],
     "require": {
         "illuminate/database": "^8.46",
-        "quetzal-studio/php-amqp-worker": "dev-master"
+        "quetzal-studio/php-amqp-worker": "^1.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.3"

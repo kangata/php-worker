@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4dad2195b46e82b03314dcda3d095acc",
+    "content-hash": "f631345d910c08f1f355d158af854f3a",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1220,29 +1220,28 @@
         },
         {
             "name": "quetzal-studio/php-amqp-worker",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kangata/php-amqp-worker.git",
-                "reference": "117c1ec73c9fe6b720b961032c485abd6b661900"
+                "reference": "80c50f4be774f0292fe956c0f5bd2eb5a543b483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kangata/php-amqp-worker/zipball/117c1ec73c9fe6b720b961032c485abd6b661900",
-                "reference": "117c1ec73c9fe6b720b961032c485abd6b661900",
+                "url": "https://api.github.com/repos/kangata/php-amqp-worker/zipball/80c50f4be774f0292fe956c0f5bd2eb5a543b483",
+                "reference": "80c50f4be774f0292fe956c0f5bd2eb5a543b483",
                 "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^2.2",
-                "nesbot/carbon": "^2.49",
+                "nesbot/carbon": "^2.31",
                 "php-amqplib/php-amqplib": "^3.0",
                 "vlucas/phpdotenv": "^5.3"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
-                    "./src/helpers.php"
+                    "src/helpers.php"
                 ],
                 "psr-4": {
                     "QuetzalStudio\\PhpAmqpWorker\\": "src/"
@@ -1270,9 +1269,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kangata/php-amqp-worker/issues",
-                "source": "https://github.com/kangata/php-amqp-worker/tree/master"
+                "source": "https://github.com/kangata/php-amqp-worker/tree/v1.0.0"
             },
-            "time": "2021-06-13T11:08:01+00:00"
+            "time": "2021-08-25T22:56:40+00:00"
         },
         {
             "name": "symfony/console",
@@ -2507,9 +2506,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "quetzal-studio/php-amqp-worker": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
